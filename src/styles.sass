@@ -1,4 +1,5 @@
 $superDarkBlue: #2c3e50
+$superDarkRed: red
 $offWhite: #f9f9f9
 
 *
@@ -10,14 +11,44 @@ body
   font-family: "Roboto Slab", Avenir, sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  color: $superDarkBlue
+  color: black
+  background: white
 
-  main
-    margin: auto
-    background-color: $offWhite
-    width: 100vw
+  #root 
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
     height: 100vh
 
-  section
-    padding-top: 30vh
-    text-align: center
+
+  p
+    margin-bottom: 30px
+
+  
+
+  video
+    
+    width: 800px
+    height: 50vh
+    background: white
+
+  #stopVideo
+    box-sizing: border-box
+    width: 300px
+    background: #d63031
+    margin: 0 auto
+    margin-top: 20px
+    padding: 10px
+    color: white
+    cursor: pointer
+
+  #playVideo
+    box-sizing: border-box
+    width: 300px
+    background: #0984e3
+    margin: 0 auto
+    margin-top: 20px
+    padding: 10px
+    color: white
+    cursor: pointer
